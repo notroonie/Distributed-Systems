@@ -18,6 +18,7 @@ Download NetBeans 8.2 With Glassfish 4.1.1
 Windows: NetBeans for Windows 8.2
 
 REMOVE COPY WORD FROM EACH FILE NAME.
+
 Assignment 1:
 Terminal 1:
 
