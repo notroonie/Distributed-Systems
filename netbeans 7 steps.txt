@@ -1,0 +1,42 @@
+Step 1 : create a service by creating a new project 
+
+step 2 : add a new web service by doing right click on main service name and give any name to it
+give package name as com.myservice and click on finish. 
+
+step 3 : right click on web service which you created and click add operation. 
+add parameters according to problem statement. Also add parameter according to question. 
+
+step 4 : change return statement according to question. save it. 
+
+step 5 : right click on main server and build, deploy. 
+
+step 6 : right click on web services k niche vala and click on test web service. 
+
+step 7 : create a new project which will be the client. 
+
+step 8 : change index.html's div and add form from palatte give form action name as XYZservlet. 
+
+step 9 : inside form copy paste : 
+	    Enter no 1: <input type="text" name="txt1" value="" /> <br>
+            Enter no 2: <input type="text" name="txt2" value="" /> <br>
+            <input type="submit" value="submit" />
+
+step 10 : right click on client and add web service client, after that select your service. 
+
+step 11 : right click on client and add servlet. give servlet name as form's action name
+then tick the checkbox after next and finish. 
+
+step 12 : in client open all files of web service references and drag that operation in servlet. 
+
+step 13 : create a new variable n1 and do 
+	double n1; 
+	n1 = Double.parserDouble(request.getParameter("n1")); // for integer 
+
+	String s1; 
+	s1 = request.getParameter("n1") // for string s1 
+
+step 14 : In h1 change heading tag and 2 plus k bich me niche vala operation likh do with parameter n1. 
+
+step 15 : right click on client and clean and bluid 
+
+step 16 : in web pages find html file and run that. 
